@@ -1,0 +1,208 @@
+/*
+  <color name="White Smoke" hex="F2F2F2" r="242" g="242" b="242" />
+  <color name="Blush Rose" hex="EB4772" r="236" g="74" b="116" />
+  <color name="Bright Snow" hex="F8F7F7" r="248" g="247" b="247" />
+  <color name="Cotton Candy" hex="F9A3B8" r="247" g="151" b="175" />
+  <color name="Black" hex="000000" r="0" g="0" b="0" />
+*/
+
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	background-color: #ffffff;
+	margin:0;
+	padding:0;
+	background-image:url();
+}
+
+.wrapper {
+	background-color:#000000;
+	width:93%;
+	margin:0 auto;
+	max-width:2000px;
+}
+
+/*
+Header
+*/
+
+h1 { 
+	margin-top:0; 
+	color: #ffffff;
+	font-family: 'Oswald', monospace;
+}
+
+h2, h3 {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Oswald', monospace;
+}
+
+.shout {
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;
+}
+
+.right {float:right;}
+.left {float:left; margin-right:10px;}
+.clear {clear:both;}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  justify-self: start;
+}
+
+
+
+.horizontal-nav {
+  list-style-type: none; 
+  margin: 0;         
+  padding: 0;      
+  display: flex;     
+  background-color: #F2F2F2;
+}
+
+.horizontal-nav li a {
+  display: flex; 
+  align-items: center;
+  list-style: none;
+  margin: 0;      
+  padding: 14px 20px;  
+  font-family: "Oswald", sans-serif;
+}
+
+.horizontal-nav li a:hover,
+.horizontal-nav li a:focus {
+  background-color: #ffffff;
+}
+
+.horizontal-nav li a.active {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+
+img {
+	max-width:100%;
+}
+
+a {text-decoration:none; }
+a:hover, a:active {text-decoration:underline}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.title-banner {
+  background: linear-gradient(90deg, #FFFFFF 0%, #F9A3B8 50%, #EB4772 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.title-banner h1 {
+  margin: 0 0 2px 0;
+  font-size: 6rem;
+}
+
+.title-banner p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-family: "Oswald", sans-serif;
+  opacity: 0.9;
+}
+
+
+header {
+	background-color:#FFFFFF;
+	padding:8px;
+}
+
+header a, header a:visited {
+	color: #000000;
+}
+
+#head1 {
+	width:70%;
+	float:left;
+}
+
+#head2 {
+	width:30%;
+Text-align:right;
+	float:left;
+}
+
+}
+
+main {
+	width:75%;
+	padding-left:3%;
+	padding-right:3%;
+	float:left;
+	background-color: #ffffff;
+
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+        background-color: #F2F2F2;
+
+}
+
+
+@media screen and (max-width: 780px) {
+	#head1 {
+		float:none;
+		width:100%;
+		}
+	#head2 {
+		float:none;
+		width:100%;
+		}
+	nav {
+		float:none;
+		width:100%;
+		}
+	main {
+	float:none;
+	width:100%;
+		}
+
+	.right {
+		float:none;
+		}
+
+	.logos li {
+		float:none;
+		margin:0 auto;
+		width: 60%;
+		}
+
+@media print {
+	header, nav, footer { display:none; }
+	main { width:100%; }
+	img { display:none; }
+	.shout { color:black; font-weight:bold; }
+	}
+
+selector {
+  text-shadow: h-shadow v-shadow blur-radius color;
+}
+
+
+
+
+
